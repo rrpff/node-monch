@@ -1,0 +1,26 @@
+{
+  "name": "monch",
+  "version": "0.0.0",
+  "description": "Wrap (RESTful APIs) super fast.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "gulp"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "wrapper"
+  ],
+  "author": "Richard Foster <richard@rpf.me> (http://rpf.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
