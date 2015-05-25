@@ -21,6 +21,7 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "request": "^2.55.0"
+    "request": "^2.55.0",
+    "util-extend": "^1.0.1"
   }
 }
